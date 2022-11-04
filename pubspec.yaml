@@ -64,7 +64,7 @@ flutter:
   fonts:
     - family: Lato
       fonts:
-        - asset: assets/fonts/Lato-Regular.tff
+        - asset: assets/fonts/Lato-Regular.ttf
 
 
   # The following line ensures that the Material Icons font is

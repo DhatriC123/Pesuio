@@ -68,8 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Center(
           child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
-              CrossAxisAlignment: MainAxisAlignment.center,
-
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text('PESU',
                     style: TextStyle(
@@ -86,19 +85,17 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(
                       fontSize: 24.0,
                       color: Colors.red,
-                      fontFamily:'Lato',
+                      fontFamily: 'Lato',
                     )),
                 ElevatedButton(
-                    onPressed: (){print('PRESENT');},
-                    style:ElevatedButton.styleFrom(
-                      primary:Colors.green
-
-
-                    )
+                    onPressed: () {
+                      print('PRESENT');
+                    },
+                    style:
+                        ElevatedButton.styleFrom(backgroundColor: Colors.green),
                     child: Padding(
-                      padding:const EdgeInsets.all(20.0),
-                )
-                      child:Text('Present')),
+                        padding: const EdgeInsets.all(20.0),
+                        child: Text('Present'))),
               ]),
         ),
       ),
